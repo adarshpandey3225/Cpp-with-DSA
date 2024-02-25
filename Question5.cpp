@@ -1,12 +1,16 @@
-// Q5. Write a program to find the circumference of 
-// a circle with radius 10 in C++.
+// Q5. WAP to find the difference between ASCII of two characters
+// ,take them as input.
 
 #include<iostream>
 using namespace std;
 int main(){
-    int r = 10;
-    float pi = 3.14159;
-    float Circumference = 2 * pi * r;
-    cout<<"Circumference of a circle = "<<Circumference;
+    char ch1,ch2;
+    cout<<"Enter the 1st character = ";
+    cin>>ch1;
+    cout<<"Enter the 2nd character = ";
+    cin>>ch2;
+
+    int difference = (int)ch2 - (int)ch1;
+    cout<<"The difference between the ASCII values : "<<difference;
 
 }
